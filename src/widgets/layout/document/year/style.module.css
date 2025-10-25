@@ -1,0 +1,7 @@
+.doc_year {
+    position: absolute;
+    bottom: var(--doc-offset);
+    left: 50%;
+
+    transform: translateX(-50%);
+}

@@ -1,0 +1,9 @@
+.block {
+    padding: var(--doc-offset);
+}
+.ul_header {
+    font-size: 19px;
+}
+.ul_list {
+    font-size: 18px;
+}

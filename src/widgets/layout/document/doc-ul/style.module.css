@@ -1,0 +1,19 @@
+.ul {
+    padding: var(--doc-offset);
+}
+.ul_header {
+    width: 100%;
+
+    text-align: center;
+    margin-bottom: 10px;
+
+    font-size: 18px;
+}
+.ul_list {
+
+}
+.ul_list_item {
+    & > span:last-child {
+        text-decoration: underline;
+    }
+}

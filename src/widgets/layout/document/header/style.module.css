@@ -1,0 +1,11 @@
+.doc_header {
+    position: absolute;
+    top: var(--doc-offset);
+    left: var(--doc-offset);
+
+    width: calc(100% - var(--doc-offset) * 2);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

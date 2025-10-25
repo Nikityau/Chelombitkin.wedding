@@ -1,0 +1,14 @@
+.required_item {
+    position: relative;
+
+    display: flex;
+    gap: 5px;
+
+    & span:first-child {
+        font-size: 18px;
+    }
+
+    & span:last-child {
+        color: #a5566d;
+    }
+}

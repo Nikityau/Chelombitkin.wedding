@@ -1,0 +1,7 @@
+.doc_text {
+    width: calc(100% - var(--doc-offset) * 2);
+
+    padding: var(--doc-offset);
+
+    font-size: 18px;
+}

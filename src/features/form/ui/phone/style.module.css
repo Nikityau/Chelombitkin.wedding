@@ -1,0 +1,34 @@
+.phone {
+    display: grid;
+    grid-template-columns: 80px auto;
+
+    .phone_region {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        background: #e4e1e7;
+
+        padding: 10px;
+
+        border-radius: 6px 0 0 6px;
+
+        img {
+            width: 20px;
+        }
+    }
+
+    .phone_input {
+        background: var(--item-color);
+
+        border-radius: 0 6px 6px 0;
+
+        border: none;
+        outline: none;
+
+        font-size: 17px;
+
+        padding: 0 5px;
+    }
+}
